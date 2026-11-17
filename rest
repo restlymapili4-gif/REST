@@ -1,0 +1,183 @@
+print("Welcome to the Lesson and Quiz System!")
+
+while True:
+    print("\n===== CHOOSE L [1-3] =====")
+    print("[1]. Prelim")
+    print("[2]. Midterm")
+    print("[3]. Finale")
+    print("[4]. Exit")
+
+    name = input("Enter your name: ")
+    sec = input("Enter your section: ")
+    choice = input("\nWhat lesson do you want to study? ")
+
+    if choice == "1":
+        print("\n===== PRELIM LESSON =====")
+        print("Welcome to your  lesson!")
+        print("Python is a programming language.")
+        print("print() displays a message.")
+        print("input() lets the user enter information.")
+        print("A variable stores information.")
+
+        print("\nLet's test what you learned!")
+        score = 0
+
+        for i in range(1, 6):
+            if i == 1:
+                answer = input("1. What programming language are we learning? ")
+                if answer.lower() == "python":
+                    print("Correct! Good job!")
+                    score = score + 1
+                else:
+                    print("Not quite! The answer is Python.")
+
+            elif i == 2:
+                answer = input("2. What command displays a message? ")
+                if answer.lower() == "print":
+                    print("Correct! Keep it up!")
+                    score = score + 1
+                else:
+                    print("The answer is print.")
+
+            elif i == 3:
+                answer = input("3. What command accepts user input? ")
+                if answer.lower() == "input":
+                    print("Correct!")
+                    score = score + 1
+                else:
+                    print("The answer is input.")
+
+            elif i == 4:
+                answer = input("4. What stores information in Python? ")
+                if answer.lower() == "variable":
+                    print("Correct! Well done!")
+                    score = score + 1
+                else:
+                    print("The answer is variable.")
+
+            elif i == 5:
+                answer = input("5. What symbol assigns a value? ")
+                if answer == "=":
+                    print("Correct!")
+                    score = score + 1
+                else:
+                    print("The answer is =.")
+
+        print("\nYour Prelim score is", score, "out of 5.")
+
+    elif choice == "2":
+        print("\n===== MIDTERM LESSON =====")
+        print("Welcome to your Midterm lesson!")
+        print("An if statement checks a condition.")
+        print("elif checks another condition.")
+        print("else runs when the other conditions are false.")
+        print("The == symbol checks if two values are equal.")
+
+        print("\nTime for your Midterm quiz!")
+        score = 0
+
+        for i in range(1, 6):
+            if i == 1:
+                answer = input("1. What statement checks a condition? ")
+                if answer.lower() == "if":
+                    print("Correct!")
+                    score = score + 1
+                else:
+                    print("The answer is if.")
+
+            elif i == 2:
+                answer = input("2. What runs when other conditions are false? ")
+                if answer.lower() == "else":
+                    print("Correct!")
+                    score = score + 1
+                else:
+                    print("The answer is else.")
+
+            elif i == 3:
+                answer = input("3. What symbol checks equality? ")
+                if answer == "==":
+                    print("Correct!")
+                    score = score + 1
+                else:
+                    print("The answer is ==.")
+
+            elif i == 4:
+                answer = input("4. What statement checks another condition? ")
+                if answer.lower() == "elif":
+                    print("Correct!")
+                    score = score + 1
+                else:
+                    print("The answer is elif.")
+
+            elif i == 5:
+                answer = input("5. What symbol means greater than? ")
+                if answer == ">":
+                    print("Correct!")
+                    score = score + 1
+                else:
+                    print("The answer is >.")
+
+        print("\nYour Midterm score is", score, "out of 5.")
+
+    elif choice == "3":
+        print("\n===== FINALE LESSON =====")
+        print("Welcome to your Finale lesson!")
+        print("A for loop repeats instructions.")
+        print("A while loop repeats while a condition is true.")
+        print("break stops a loop.")
+        print("continue skips to the next repetition.")
+
+        print("\nLet's see what you remember!")
+        score = 0
+
+        for i in range(1, 6):
+            if i == 1:
+                answer = input("1. Which loop repeats over a sequence? ")
+                if answer.lower() == "for":
+                    print("TSAMBA!")
+                    score = score + 1
+                else:
+                    print("The answer is for.")
+
+            elif i == 2:
+                answer = input("2. Which loop repeats while a condition is true? ")
+                if answer.lower() == "while":
+                    print("GALING AH!")
+                    score = score + 1
+                else:
+                    print("The answer is while.")
+
+            elif i == 3:
+                answer = input("3. What statement stops a loop? ")
+                if answer.lower() == "break":
+                    print("NICE ONE BABY!")
+                    score = score + 1
+                else:
+                    print("The answer is break.")
+
+            elif i == 4:
+                answer = input("4. What statement skips to the next repetition? ")
+                if answer.lower() == "continue":
+                    print("GALING YARN!")
+                    score = score + 1
+                else:
+                    print("The answer is continue.")
+
+            elif i == 5:
+                answer = input("5. What keyword is used to create a function? ")
+                if answer.lower() == "def":
+                    print("WOW!")
+                    score = score + 1
+                else:
+                    print("The answer is def.")
+
+        print("\nYour Finale score is", score, "out of 5.")
+
+    elif choice == "4":
+        print("\nThank you for studying with us!")
+        print("Keep learning and doing your best. Byebye!")
+        break
+
+    else:
+        print("\nSorry, that choice is not available.")
+        print("Please choose a number from 1 to 4.")
