@@ -26,7 +26,7 @@ while True:
             if i == 1:
                 answer = input("1. What programming language are we learning? ")
                 if answer.lower() == "python":
-                    print("Correct! Good job!")
+                    print("TSAMBA!")
                     score = score + 1
                 else:
                     print("Not quite! The answer is Python.")
@@ -34,7 +34,7 @@ while True:
             elif i == 2:
                 answer = input("2. What command displays a message? ")
                 if answer.lower() == "print":
-                    print("Correct! Keep it up!")
+                    print("GALING AH!")
                     score = score + 1
                 else:
                     print("The answer is print.")
@@ -42,7 +42,7 @@ while True:
             elif i == 3:
                 answer = input("3. What command accepts user input? ")
                 if answer.lower() == "input":
-                    print("Correct!")
+                    print("NICE ONE BABY!")
                     score = score + 1
                 else:
                     print("The answer is input.")
@@ -50,7 +50,7 @@ while True:
             elif i == 4:
                 answer = input("4. What stores information in Python? ")
                 if answer.lower() == "variable":
-                    print("Correct! Well done!")
+                    print("GALING YARN!")
                     score = score + 1
                 else:
                     print("The answer is variable.")
@@ -58,7 +58,7 @@ while True:
             elif i == 5:
                 answer = input("5. What symbol assigns a value? ")
                 if answer == "=":
-                    print("Correct!")
+                    print("WOW!")
                     score = score + 1
                 else:
                     print("The answer is =.")
@@ -80,7 +80,7 @@ while True:
             if i == 1:
                 answer = input("1. What statement checks a condition? ")
                 if answer.lower() == "if":
-                    print("Correct!")
+                    print("TSAMBA!")
                     score = score + 1
                 else:
                     print("The answer is if.")
@@ -88,7 +88,7 @@ while True:
             elif i == 2:
                 answer = input("2. What runs when other conditions are false? ")
                 if answer.lower() == "else":
-                    print("Correct!")
+                    print("GALING AH!")
                     score = score + 1
                 else:
                     print("The answer is else.")
@@ -96,7 +96,7 @@ while True:
             elif i == 3:
                 answer = input("3. What symbol checks equality? ")
                 if answer == "==":
-                    print("Correct!")
+                    print("NICE ONE BABY!")
                     score = score + 1
                 else:
                     print("The answer is ==.")
@@ -104,7 +104,7 @@ while True:
             elif i == 4:
                 answer = input("4. What statement checks another condition? ")
                 if answer.lower() == "elif":
-                    print("Correct!")
+                    print("GALING YARN!")
                     score = score + 1
                 else:
                     print("The answer is elif.")
@@ -112,7 +112,7 @@ while True:
             elif i == 5:
                 answer = input("5. What symbol means greater than? ")
                 if answer == ">":
-                    print("Correct!")
+                    print("WOW!")
                     score = score + 1
                 else:
                     print("The answer is >.")
